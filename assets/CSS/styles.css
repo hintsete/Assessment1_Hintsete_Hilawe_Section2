@@ -3,7 +3,7 @@
     padding: 0;
 }
 header{
-    background-color:rgb(213, 222, 204) ;
+    background-color: #d9eed9;
     text-align: center;
     padding: 25px 0px;
 }
@@ -23,7 +23,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: chartreuse;
+    color: #4CAF50 ;
     font-size: 20px;
     font-weight: 300;
 }
@@ -62,7 +62,7 @@ article img{
     max-width: 100%;
 }
 .price{
-    color: chartreuse;
+    color: #4CAF50 ;
     font-size: 20px;
     padding-top: 5px;
     
@@ -71,7 +71,7 @@ main{
     padding: 80px;
 }
 footer{
-    background-color: rgb(5, 92, 5);
+    background-color:  #124314;
     text-align: center;
     padding: 25px;
     color: white;
