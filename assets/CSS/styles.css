@@ -5,7 +5,7 @@
 header{
     background-color:rgb(213, 222, 204) ;
     text-align: center;
-    padding: 15px 0px;
+    padding: 25px 0px;
 }
 nav ul{
     display: flex;
@@ -23,33 +23,34 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: chartreuse;
+    font-size: 20px;
 }
 .product-list{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 45px;
     margin: 25px 0px;
+    flex-wrap: wrap;
 }
 .product{
     flex: 1;
     padding: 20px;
     background-color: white;
-    max-width: 350px;
+    max-width: 300px;
     text-align: center;
     box-sizing: border-box;
     
 }
 
-/* h2{
-    padding-left: 250px;
-} */
+
 body{
-    background-color: whitesmoke ;
+    background-color: rgb(244, 240, 240) ;
 }
 
 article img{
     width: 100%;
     height: auto;
+    max-width: 100%;
 }
 .price{
     color: chartreuse;
@@ -58,7 +59,7 @@ article img{
     
 }
 main{
-    padding: 60px;
+    padding: 80px;
 }
 footer{
     background-color: rgb(5, 92, 5);
